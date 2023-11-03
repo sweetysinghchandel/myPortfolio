@@ -1,13 +1,268 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary: rgb(2, 2, 99);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: rgb(0 0 33);
+  color: white;
+  font-family: "poppins", sans-serif;
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 79px;
+
+  background-color: var(--primary);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(122, 122, 237);
+}
+ main hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 40px 84px;
+    }
+
+    .left {
+      font-size: 2rem;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      margin: 80px 0;
+      align-items: center;
+    }
+
+    .firstsection>div {
+      width: 30%;
+    }
+
+    .leftsection {
+      /* background-color: red; */
+      font-size: 3rem;
+      /* margin: 70px 0; */
+    }
+
+    .buttons .btn {
+      /* background-color: red; */
+      padding: 12px;
+      background: #1e2167;
+      color: white;
+      border: 2px solid white;
+      border-radius: 6px;
+      font-size: 20px;
+      cursor: pointer;
+
+      background-color: white;
+      text-decoration: none;
+      /* margin: 70px 0; */
+    }
+
+    .buttons .btn a {
+      text-decoration: none;
+    }
+
+    .rightsection {
+      /* background-color: red; */
+    }
+
+    .rightsection img {
+      width: 80%;
+      /* margin: 50px 0; */
+    }
+
+    .purple {
+      color: rgb(127, 19, 228);
+    }
+
+    .text-gray {
+      color: gray;
+      font-size: 17px;
+    }
+
+    #element {
+      color: rgb(127, 19, 228);
+    }
+    .secondsection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    .secondsection h1 {
+      font-size: 2rem;
+    }
+
+    .secondsection .box {
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondsection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0 120px;
+    }
+
+    .image-top {
+      width: 43px;
+      position: relative;
+      top: -50px;
+      left: -15px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: 75px;
+      width: 150px;
+      font-size: 24px;
+
+    }
+
+    .vertical-desc {
+      position: relative;
+      top: 86px;
+      color: gray;
+      width: 150px;
+      font-size: 17px;
+
+
+    }
+
+    footer {
+      background-color: rgb(2, 2, 69);
+      height: 180px;
+
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 80px;
+
+    }
+
+    .footercontainer {
+      /* width: 100%; */
+      /* padding: 70px 30px 20px; */
+    }
+    .socialIcons {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .socialIcons a {
+      text-decoration: none;
+      padding: 10px;
+      /* background-color: white; */
+      margin: 10px;
+      border-radius: 50%;
+
+    }
+
+    .socialIcons a i {
+      font-size: 2em;
+      color: white;
+      opacity: 0.9;
+
+    }
+
+    .socialIcons a:hover {
+      background-color: #111;
+      transition: 0.5s;
+    }
+
+    .socialIcons a:hover i {
+      color: white;
+      transition: 0.5s;
+    }
+
+    .footernav {
+      margin: 30px 0;
+
+    }
+
+    .footernav ul {
+      display: flex;
+      justify-content: center;
+      /* text-decoration: none; */
+      list-style: none;
+      /* position: relative; */
+      position: relative;
+
+
+    }
+
+    .footernav ul li a {
+      color: white;
+      margin: 20px;
+      text-decoration: none;
+      font-size: 1.3em;
+      opacity: 0.7;
+      transition: 0.5s;
+
+
+    }
+
+
+    .footernav ul li a:hover {
+      opacity: 1;
+    }
+
+    .footerbottom {
+      background-color: rgb(0 0 33);
+      padding: 20px;
+      text-align: center;
+    }
+
+
+    .designer {
+      opacity: 0.7;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 400;
+      margin: 0px 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
